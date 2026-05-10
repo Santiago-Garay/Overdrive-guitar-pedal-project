@@ -1,0 +1,40 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\santi\OneDrive\Documentos\Proyectos_Guitarra\Overdrive-guitar-pedal-project\Simulaciones\Draft2.asc
+Start Time: Tue May  5 19:17:37 2026
+solver = Normal
+Maximum thread count: 12
+tnom = 27
+temp = 27
+method = modified trap
+gmin = 1e-06
+abstol = 1e-06
+reltol = 0.01
+chgtol = 1e-07
+volttol = 0.001
+Instance "m:u1:12": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:14": Length shorter than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Increasing initial diagonal Gmin to 100
+Increasing initial diagonal Gmin to 1000
+Increasing initial diagonal Gmin to 10000
+Increasing initial diagonal Gmin to 100000
+Increasing initial diagonal Gmin to 1e+06
+Initial Gmin=1e+06 failed
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+vernier = 0.25
+Source Step = 0.0177557%
+Starting source stepping with srcstepmethod=1
+Source Step = 3.0303%
+vernier = 0.25
+Source stepping failed
+
+Pseudo Transient succeeded in finding the operating point at 30 s.
+Singular matrix:  Check node u1:15
+   Iteration No. 1
+Fatal Error: Singular matrix:  check node u1:15
+   Iteration No. 1
+
