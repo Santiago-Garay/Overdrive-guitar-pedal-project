@@ -645,7 +645,7 @@
         "uuid": "6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
       }
     ],
-    "used_designators": "",
+    "used_designators": "SW2,C_entrada1,C_sbt1-4,C_sovdr1,#PWR20-21,C_spwm1",
     "variants": []
   },
   "sheets": [
