@@ -5541,7 +5541,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-03P_1x03_P5.00mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 60.96 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6382,7 +6382,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-04P_1x04_P5.00mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 17.78 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -7888,7 +7888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.03 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8050,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.03 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9581,7 +9581,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 38.1 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9606,7 +9606,7 @@
 		(property "Description" "Switch, dual pole double throw, separate symbols"
 			(at 38.1 72.39 0)
 			(hide yes)
-			(show_name no)
+			(show_name yes)
 			(do_not_autoplace no)
 			(effects
 				(font
@@ -9618,16 +9618,16 @@
 			(uuid "20273c37-3539-4d3f-b21b-eb619f283836")
 		)
 		(pin "4"
-			(uuid "0bac94f7-3772-4925-b484-a8311acb8489")
+			(uuid "0bac94f7-3772-4925-b484-a8311acb848a")
 		)
 		(pin "6"
-			(uuid "d72eebe3-393b-4257-a3d0-91ba124fba2e")
+			(uuid "d72eebe3-393b-4257-a3d0-91ba124fba2f")
 		)
 		(pin "1"
 			(uuid "95b22ea1-353e-4353-be3b-f37485ee6e10")
 		)
 		(pin "5"
-			(uuid "cd5d3ad2-aa9b-4274-a210-21b917bd8afa")
+			(uuid "cd5d3ad2-aa9b-4274-a210-21b917bd8afb")
 		)
 		(pin "2"
 			(uuid "3d1bcafb-9dd3-48bb-9fe3-cea1682f0987")
@@ -10335,7 +10335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 134.62 20.32 0)
 			(hide yes)
 			(show_name no)
@@ -10369,7 +10369,7 @@
 			)
 		)
 		(pin "3"
-			(uuid "24f74229-f169-4999-b03f-54fc0c1d7209")
+			(uuid "24f74229-f169-4999-b03f-54fc0c1d720b")
 		)
 		(pin "4"
 			(uuid "4a646dd0-4d20-4a1e-882f-1635157d0803")
@@ -10378,13 +10378,13 @@
 			(uuid "ebb3d8e5-7de8-4866-81b2-2876e5c9d100")
 		)
 		(pin "1"
-			(uuid "603de462-f4d1-42fb-b375-858267352e33")
+			(uuid "603de462-f4d1-42fb-b375-858267352e35")
 		)
 		(pin "5"
 			(uuid "7aa6ed53-9cb5-432e-81ac-58426032e28d")
 		)
 		(pin "2"
-			(uuid "a92ffb68-a91d-43a6-8b2e-fb85211c2ebe")
+			(uuid "a92ffb68-a91d-43a6-8b2e-fb85211c2ec0")
 		)
 		(instances
 			(project "Overdrive"
@@ -10689,7 +10689,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 50.8 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -10864,7 +10864,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
 			(at 68.58 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11747,7 +11747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 113.03 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11878,6 +11878,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 248.92 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f345be7e-4c79-4fcc-b459-a4d3463baf03")
+		(property "Reference" "#PWR022"
+			(at 248.92 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a67bcd0c-d197-402f-a0f3-c70bf2336c34")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 25.4 146.05 90)
 		(unit 1)
 		(body_style 1)
@@ -11985,7 +12064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Single_Horizontal"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
 			(at 34.29 55.88 0)
 			(hide yes)
 			(show_name no)
