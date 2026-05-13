@@ -1,0 +1,6 @@
+Info: Escala X restringida.
+Info: Escala Y restringida.
+Trazado a 'C:\Users\santi\OneDrive\Documentos\Proyectos_Guitarra\Overdrive-guitar-pedal-project\PCB\Overdrive\Overdrive-B_Cu.gbr'.
+Trazado a 'C:\Users\santi\OneDrive\Documentos\Proyectos_Guitarra\Overdrive-guitar-pedal-project\PCB\Overdrive\Overdrive-Edge_Cuts.gbr'.
+Archivo de trabajo Gerber 'C:\Users\santi\OneDrive\Documentos\Proyectos_Guitarra\Overdrive-guitar-pedal-project\PCB\Overdrive\Overdrive-job.gbrjob' creado.
+Info: Listo.

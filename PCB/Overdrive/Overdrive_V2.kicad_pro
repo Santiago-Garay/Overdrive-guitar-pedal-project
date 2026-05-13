@@ -488,7 +488,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Overdrive.kicad_pro",
+    "filename": "Overdrive_V2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -660,7 +660,7 @@
         "uuid": "6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
       }
     ],
-    "used_designators": "SW3,R15-17,#PWR14,D3-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
