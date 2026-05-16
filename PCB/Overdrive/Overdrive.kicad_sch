@@ -277,6 +277,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:Conn_01x03_Pin"
 			(pin_names
 				(offset 1.016)
@@ -3878,6 +4018,12 @@
 		(uuid "04d0fb22-3477-49cc-9fbf-7e7dff448b41")
 	)
 	(junction
+		(at 172.72 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05f66576-6f6e-496c-854d-6ad47349a43e")
+	)
+	(junction
 		(at 63.5 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3888,6 +4034,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a92e53e-3821-4867-94b8-199369e1aa3a")
+	)
+	(junction
+		(at 60.96 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ddfc882-8c60-4d94-b65f-b5444b2ea16a")
 	)
 	(junction
 		(at 118.11 156.21)
@@ -3932,10 +4084,10 @@
 		(uuid "45320d56-f8be-4fcb-a880-058a3351f5da")
 	)
 	(junction
-		(at 81.28 88.9)
+		(at 92.71 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "46c4b9f2-6cf8-46ac-b247-89697a158a79")
+		(uuid "55a9c1de-136a-4581-bf90-50979b608e71")
 	)
 	(junction
 		(at 40.64 106.68)
@@ -4034,6 +4186,12 @@
 		(uuid "d5052971-a33a-4f0e-a600-3cdf7fa88cc3")
 	)
 	(junction
+		(at 21.59 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee20ae99-5b85-401b-a823-3ce26984cfcd")
+	)
+	(junction
 		(at 93.98 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4117,6 +4275,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 96.52) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dbadbd5-3140-4aa8-9d44-4f94d85b9f24")
+	)
+	(wire
+		(pts
 			(xy 217.17 66.04) (xy 217.17 57.15)
 		)
 		(stroke
@@ -4197,6 +4365,16 @@
 	)
 	(wire
 		(pts
+			(xy 78.74 53.34) (xy 78.74 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "190f4f29-5343-43da-b819-c8df3c696330")
+	)
+	(wire
+		(pts
 			(xy 208.28 66.04) (xy 208.28 68.58)
 		)
 		(stroke
@@ -4244,6 +4422,16 @@
 			(type default)
 		)
 		(uuid "1c3fc9da-87e4-44e1-8a61-eb8832dbd9df")
+	)
+	(wire
+		(pts
+			(xy 187.96 132.08) (xy 191.77 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1f6000-342a-4e2b-96d7-2de4d5e51626")
 	)
 	(wire
 		(pts
@@ -4354,16 +4542,6 @@
 			(type default)
 		)
 		(uuid "299fb439-9325-4a4a-8cc3-4d247919c9f2")
-	)
-	(wire
-		(pts
-			(xy 81.28 88.9) (xy 113.03 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29eeba46-18dd-4c4e-8a76-69983b57d425")
 	)
 	(wire
 		(pts
@@ -4564,16 +4742,6 @@
 			(type default)
 		)
 		(uuid "48736c88-7d8f-49bd-991a-26a3401b6586")
-	)
-	(wire
-		(pts
-			(xy 171.45 119.38) (xy 167.64 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49a7e555-dd93-4795-a91f-15d28f13fd91")
 	)
 	(wire
 		(pts
@@ -4827,6 +4995,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 132.08) (xy 180.34 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65292920-be18-485b-9843-1f76c94b643f")
+	)
+	(wire
+		(pts
 			(xy 63.5 88.9) (xy 63.5 97.79)
 		)
 		(stroke
@@ -4867,6 +5045,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 120.65) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a628a0-93e4-489e-a413-301140729e3d")
+	)
+	(wire
+		(pts
 			(xy 25.4 121.92) (xy 29.21 121.92)
 		)
 		(stroke
@@ -4884,16 +5072,6 @@
 			(type default)
 		)
 		(uuid "6a1db793-6612-498f-ad7b-d0859a07f17f")
-	)
-	(wire
-		(pts
-			(xy 166.37 121.92) (xy 171.45 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afdcb20-c38f-40d2-9cbf-165914e6e10c")
 	)
 	(wire
 		(pts
@@ -5047,6 +5225,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 121.92) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816c7e5d-f847-4fec-bd84-811c03a1e355")
+	)
+	(wire
+		(pts
 			(xy 72.39 96.52) (xy 81.28 96.52)
 		)
 		(stroke
@@ -5107,6 +5295,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 88.9) (xy 113.03 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e9056d9-21db-428a-bf4e-d422320d471c")
+	)
+	(wire
+		(pts
 			(xy 19.05 55.88) (xy 21.59 55.88)
 		)
 		(stroke
@@ -5114,6 +5312,16 @@
 			(type default)
 		)
 		(uuid "9214d80e-2e1d-4ef3-8415-b9cb4a305861")
+	)
+	(wire
+		(pts
+			(xy 203.2 148.59) (xy 214.63 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d25a5e-9975-4c43-af2b-9ecfd4099287")
 	)
 	(wire
 		(pts
@@ -5224,6 +5432,16 @@
 			(type default)
 		)
 		(uuid "a4452c70-abce-48cf-ab34-7c780035c54d")
+	)
+	(wire
+		(pts
+			(xy 209.55 134.62) (xy 214.63 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a70cf138-77c5-479c-91ff-0147a4957183")
 	)
 	(wire
 		(pts
@@ -5367,6 +5585,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 132.08) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24ce66c-3d03-4344-bce3-88f473d2d93a")
+	)
+	(wire
+		(pts
 			(xy 241.3 21.59) (xy 242.57 21.59)
 		)
 		(stroke
@@ -5394,6 +5622,16 @@
 			(type default)
 		)
 		(uuid "c4f1b201-898c-4be7-80d7-6b138e8fdf34")
+	)
+	(wire
+		(pts
+			(xy 172.72 121.92) (xy 166.37 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f2ae18-6864-42a5-9ec8-6d522775aabd")
 	)
 	(wire
 		(pts
@@ -5457,6 +5695,26 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 151.13) (xy 196.85 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee6784e-466d-4292-a604-4eca34ebbb72")
+	)
+	(wire
+		(pts
+			(xy 81.28 96.52) (xy 92.71 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0debb8e-d44c-4344-9a51-9269f70c8c4d")
+	)
+	(wire
+		(pts
 			(xy 130.81 100.33) (xy 134.62 100.33)
 		)
 		(stroke
@@ -5484,6 +5742,26 @@
 			(type default)
 		)
 		(uuid "da0a3a4e-1a0e-48a2-b6f3-dd22db4bed1b")
+	)
+	(wire
+		(pts
+			(xy 191.77 146.05) (xy 195.58 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da474fca-6c4c-415e-8088-c89f06e496e4")
+	)
+	(wire
+		(pts
+			(xy 210.82 129.54) (xy 217.17 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc5d4cff-ee41-49fb-a600-15a9f4cc468d")
 	)
 	(wire
 		(pts
@@ -5517,7 +5795,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 119.38) (xy 167.64 116.84)
+			(xy 214.63 146.05) (xy 213.36 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5607,6 +5885,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 67.31) (xy 21.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f280c58d-7325-4e85-9554-d8474a9ab622")
+	)
+	(wire
+		(pts
 			(xy 46.99 106.68) (xy 40.64 106.68)
 		)
 		(stroke
@@ -5665,6 +5953,46 @@
 		)
 		(uuid "ffb89f60-092c-4aa1-88f0-dbd6fe523507")
 	)
+	(label "Out_p"
+		(at 179.07 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "46ef0535-de7c-4300-b78a-11e7c9911174")
+	)
+	(label "In"
+		(at 21.59 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "abb5b598-aeb7-4928-a42b-daccc2e69c58")
+	)
+	(label "Out_p"
+		(at 190.5 151.13 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df1f0bd0-7a13-4f43-a7cb-f84fea44fe86")
+	)
+	(label "In"
+		(at 191.77 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eae56b68-aaa3-46b9-9c76-05a352b2eeeb")
+	)
 	(global_label "Vcc"
 		(shape input)
 		(at 139.7 154.94 180)
@@ -5686,6 +6014,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "Vcc"
+		(shape input)
+		(at 217.17 129.54 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "151b1bea-1f8a-453d-a9dc-5bdc29cbfbe9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.421 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -6215,6 +6567,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 196.85 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "031840b5-c5cf-4d73-8c73-3d6aa560a91e")
+		(property "Reference" "FS5"
+			(at 195.58 156.8451 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT"
+			(at 202.438 154.432 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 196.85 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 196.85 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "40484ffd-667f-4b86-9d3f-de353bb6313b")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "FS5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 113.03 74.93 180)
 		(unit 1)
@@ -6480,6 +6910,84 @@
 			(project "Overdrive"
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 92.71 83.82 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e3da12f-6684-4f07-b20a-cca62e7ecf8f")
+		(property "Reference" "J5"
+			(at 93.98 83.1849 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OVD"
+			(at 87.122 85.598 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 92.71 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db2ac718-570a-4cb9-a5f5-70e24d17a3d3")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6983,6 +7491,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 195.58 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "24bdd2d9-73fe-4a21-b965-2f0de0737138")
+		(property "Reference" "R20"
+			(at 195.072 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_US"
+			(at 192.786 130.302 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 195.834 131.064 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 195.58 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0108a21c-9349-431c-a03b-78768c115591")
+		)
+		(pin "2"
+			(uuid "f801f7e2-5c9d-4392-b6fb-36f837278fa4")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 25.4 69.85 90)
 		(unit 1)
@@ -7057,6 +7646,85 @@
 			(project "Overdrive"
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "C_entrada1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 132.08 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d8d70f7-1188-4df6-ab74-cb2c270bb897")
+		(property "Reference" "#PWR018"
+			(at 173.99 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.99 127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8970c11c-c4aa-447c-b191-b83a9cbbd910")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7163,6 +7831,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 203.2 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "32d602ce-305b-4cb9-be97-65bb256ab547")
+		(property "Reference" "J12"
+			(at 209.55 135.2549 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS6"
+			(at 203.454 150.368 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 203.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 203.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef28fe02-656b-48fa-9fac-d2bd253cfecb")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 186.69 78.74 270)
 		(mirror x)
@@ -7246,7 +7992,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 176.53 121.92 0)
+		(at 219.71 148.59 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -7258,7 +8004,7 @@
 		(fields_autoplaced yes)
 		(uuid "35f8e336-84b3-4f63-924f-1fe7fd5c2fdd")
 		(property "Reference" "J3"
-			(at 179.07 121.9201 0)
+			(at 222.25 148.5901 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7269,7 +8015,7 @@
 			)
 		)
 		(property "Value" "Salida"
-			(at 179.07 119.3801 0)
+			(at 222.25 146.0501 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7280,7 +8026,7 @@
 			)
 		)
 		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 176.53 121.92 0)
+			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7291,7 +8037,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 121.92 0)
+			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7302,7 +8048,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 176.53 121.92 0)
+			(at 219.71 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8067,6 +8813,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 209.55 129.54 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45eacc72-e5ed-4b0e-a7ca-3e32ba8c47dc")
+		(property "Reference" "J11"
+			(at 210.82 128.9049 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS3"
+			(at 203.962 131.318 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 209.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 209.55 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ce135dc-472f-4934-8eca-67fbd5141eb7")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 93.98 156.21 0)
 		(unit 1)
@@ -8143,6 +8967,84 @@
 			(project "Overdrive"
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "R_vref_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 195.58 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "566715e4-c7f2-4dad-bc70-bfb2e8121255")
+		(property "Reference" "J13"
+			(at 196.85 140.3349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS4"
+			(at 189.992 142.748 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 195.58 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 195.58 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 195.58 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e051ecbd-508f-4c92-bb17-fadc62d4e0a5")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8545,6 +9447,86 @@
 			(project "Overdrive"
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "C_TL072_1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 214.63 134.62 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "663f1b05-b774-4f12-b56e-c86f3b13ace6")
+		(property "Reference" "#PWR019"
+			(at 220.98 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 134.6199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 214.63 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 214.63 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f1eb34b-3f85-4d55-affc-b7b6faed40fd")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9037,7 +10019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 167.64 116.84 0)
+		(at 213.36 146.05 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -9049,7 +10031,7 @@
 		(fields_autoplaced yes)
 		(uuid "766f6240-dd3a-446c-b080-2aa3302ae440")
 		(property "Reference" "#PWR09"
-			(at 167.64 110.49 0)
+			(at 207.01 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9060,7 +10042,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 111.76 0)
+			(at 208.28 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9070,7 +10052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 116.84 0)
+			(at 213.36 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9081,7 +10063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 116.84 0)
+			(at 213.36 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9092,7 +10074,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 116.84 0)
+			(at 213.36 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9188,6 +10170,84 @@
 			(project "Overdrive"
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 210.82 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7a21e959-2900-4f0a-8f54-4456dda0e629")
+		(property "Reference" "J10"
+			(at 212.09 123.8249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS2"
+			(at 205.232 126.238 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 210.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 210.82 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94b0c6f0-43d5-4f5b-9a1b-8416a0476c50")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -11085,6 +12145,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 200.66 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8d62d7b-949e-4645-9ca2-39d30b40ae97")
+		(property "Reference" "J9"
+			(at 201.93 126.3649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FS1"
+			(at 195.834 124.968 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 200.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 200.66 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "06dc89e1-3746-45e0-8894-072e06a7877b")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 60.96 50.8 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "baf4fac0-c640-4f9c-a62b-6a5d14c468cd")
+		(property "Reference" "J8"
+			(at 62.23 50.1649 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ADC_in"
+			(at 55.372 52.578 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 60.96 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "110cd051-b267-438b-a649-a8038f1a6b2d")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 85.09 54.61 90)
 		(unit 1)
@@ -11619,6 +12835,162 @@
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "RV3")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 78.74 48.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c620beb7-33d5-4c08-882d-2d508e201490")
+		(property "Reference" "J6"
+			(at 80.01 47.6249 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PWM"
+			(at 73.152 50.038 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 78.74 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3f9ec95d-5dfc-4ad6-b6a3-e14435483b87")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 172.72 115.57 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cb75bc20-c757-4ef7-a0d5-5915cab16502")
+		(property "Reference" "J7"
+			(at 173.99 114.9349 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT"
+			(at 167.132 117.348 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 172.72 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 172.72 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2f29034d-a8a1-46b5-bcfd-336162f9d4f1")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "J7")
+					(unit 1)
 				)
 			)
 		)
@@ -12353,6 +13725,96 @@
 			(project "Overdrive"
 				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 184.15 132.08 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6b5dda7-1234-4715-80ae-7c77b3873ad1")
+		(property "Reference" "D8"
+			(at 184.912 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 181.102 135.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_FlatTop"
+			(at 184.15 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 184.15 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 184.15 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 184.15 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "03046ea5-56bd-4ddf-a90c-af02f9e9d4e2")
+		)
+		(pin "2"
+			(uuid "72e4a251-0037-4030-883f-ab1a26ac27e4")
+		)
+		(instances
+			(project "Overdrive"
+				(path "/6ab4e771-ed81-43fb-b5c5-ca1b3b0e4bae"
+					(reference "D8")
 					(unit 1)
 				)
 			)
