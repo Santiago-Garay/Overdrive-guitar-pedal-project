@@ -1,0 +1,207 @@
+%% Script para calcular las resistencias de la etapa de control de volumen pasivo
+clc; clear all;
+
+clear
+clc
+close all
+
+%%====================================================
+%% PARAMETROS
+%%====================================================
+
+% Guitarra (amplitud pico)
+Vin_array = [50e-3 100e-3 200e-3 500e-3];
+
+% Etapa de ganancia
+Rg  = 1e3;
+Rf0 = 4.7e3;
+
+% Diodos (modelo aproximado)
+Vd = 0.55;
+alpha = 2.8;      % controla la suavidad del clipping
+
+% Potenciómetro doble
+Rpot = 250e3;
+
+% Red de compensación
+R5 = 1e3;
+R6 = 10e3;
+R7 = 1e3;
+R8 = 5e3;
+
+N = 1000;
+
+pos = linspace(0,1,N);
+
+%%====================================================
+%% GRAFICOS
+%%====================================================
+
+figure(1)
+tiledlayout(2,1)
+
+% nexttile
+% hold on
+% grid on
+% title('Ganancia del operacional')
+% xlabel('Drive (%)')
+% ylabel('Ganancia')
+% 
+% nexttile
+% hold on
+% grid on
+% title('Salida después del clipping')
+% xlabel('Drive (%)')
+% ylabel('Vp')
+
+nexttile
+hold on
+grid on
+title('Salida luego de la red')
+xlabel('Drive (%)')
+ylabel('Vp')
+
+nexttile
+hold on
+grid on
+title('Atenuación')
+xlabel('Drive (%)')
+ylabel('dB')
+
+%%====================================================
+%% BARRIDO PARA DISTINTAS ENTRADAS
+%%====================================================
+
+for m = 1:length(Vin_array)
+
+    Vin = Vin_array(m);
+
+    Gain = zeros(1,N);
+
+    Vclip = zeros(1,N);
+
+    Vout = zeros(1,N);
+
+    Req = zeros(1,N);
+
+    Att_dB = zeros(1,N);
+
+    for k=1:N
+
+        %%------------------------------------------
+        % POTENCIOMETRO
+        %%------------------------------------------
+
+        Rup   = pos(k)*Rpot;
+        Rdown = (1-pos(k))*Rpot;
+
+        %%------------------------------------------
+        % GANANCIA
+        %%------------------------------------------
+
+        Rf = Rf0 + Rup;
+
+        Gain(k)=1+Rf/Rg;
+
+        %%------------------------------------------
+        % SALIDA IDEAL DEL OPAMP
+        %%------------------------------------------
+
+        Videal = Gain(k)*Vin;
+
+        %%------------------------------------------
+        % MODELO APROXIMADO
+        % DIODOS EN REALIMENTACION
+        %%------------------------------------------
+
+        Vclip(k)=Vd*tanh(alpha*Videal/Vd);
+
+        %%------------------------------------------
+        % RED PASIVA
+        %%------------------------------------------
+
+        Rsup = R5 + Rup;
+        Rinf = R7 + Rdown;
+
+        if Rsup<1e-6
+            Rsup=1e-6;
+        end
+
+        if Rinf<1e-6
+            Rinf=1e-6;
+        end
+
+        Gsup = 1/Rsup + 1/R6;
+        Ginf = 1/Rinf + 1/R8;
+
+        Att = (1/Gsup)/(1/Gsup+1/Ginf);
+
+        Vout(k)=Att*Vclip(k);
+
+        Req(k)=1/(Gsup+Ginf);
+
+        Att_dB(k)=20*log10(Att);
+
+    end
+
+    %%------------------------------------------
+    % GRAFICOS
+    %%------------------------------------------
+
+%     nexttile(1)
+%     plot(pos*100,Gain,'LineWidth',2)
+
+%     nexttile(2)
+%     plot(pos*100,Vclip,'LineWidth',2)
+
+    nexttile(1)
+    plot(pos*100,Vout,'LineWidth',2)
+
+    nexttile(2)
+    plot(pos*100,Att_dB,'LineWidth',2)
+
+end
+
+nexttile(1)
+legend("50mV","100mV","200mV","500mV","Location","northwest")
+
+nexttile(2)
+legend("50mV","100mV","200mV","500mV","Location","northwest")
+
+% nexttile(3)
+% legend("50mV","100mV","200mV","500mV","Location","northwest")
+% 
+% nexttile(4)
+% legend("50mV","100mV","200mV","500mV","Location","northwest")
+
+%%====================================================
+%% GRAFICO ADICIONAL
+%%====================================================
+
+% figure(2)
+% 
+% yyaxis left
+% plot(pos*100,Gain,'LineWidth',2)
+% ylabel('Ganancia')
+% 
+% yyaxis right
+% plot(pos*100,Vclip,'LineWidth',2)
+% ylabel('Salida Overdrive (Vp)')
+% 
+% grid on
+% xlabel('Posición del Drive (%)')
+% title('Ganancia vs Saturación')
+
+%%====================================================
+%% RESISTENCIA EQUIVALENTE
+%%====================================================
+% 
+% figure(3)
+% 
+% plot(pos*100,Req/1000,'LineWidth',2)
+% 
+% grid on
+% 
+% xlabel('Drive (%)')
+% ylabel('Req (k\Omega)')
+% title('Resistencia equivalente de la red')

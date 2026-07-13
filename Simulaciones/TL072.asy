@@ -4,7 +4,7 @@ RECTANGLE Normal -32 -56 32 56
 WINDOW 0 0 -56 Bottom 2
 SYMATTR Prefix X
 SYMATTR Value TL072
-SYMATTR ModelFile C:\Users\santi\OneDrive\Documentos\Proyectos_Guitarra\Overdrive-guitar-pedal-project\Simulaciones\TL072.lib
+SYMATTR ModelFile C:\Users\Usuario\Documents\Proyecto_Pedal\Overdrive-guitar-pedal-project\Simulaciones\TL072.lib
 WINDOW 3 0 56 Top 2
 PIN -32 -16 LEFT 8
 PINATTR PinName 1

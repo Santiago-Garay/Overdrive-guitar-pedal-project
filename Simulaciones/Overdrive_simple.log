@@ -1,14 +1,13 @@
-LTspice 24.0.12 for Windows
-Circuit: * C:\Users\santi\OneDrive\Documentos\Proyectos_Guitarra\Overdrive-guitar-pedal-project\Simulaciones\Overdrive_simple.asc
-Start Time: Wed May  6 17:13:38 2026
-solver = Normal
-Maximum thread count: 12
+LTspice 24.1.9 for Windows
+Circuit: C:\Users\Usuario\Documents\Proyecto_Pedal\Overdrive-guitar-pedal-project\Simulaciones\Overdrive_simple.net
+Start Time: Mon Jul 13 12:25:27 2026
+solver = Alternate
+Maximum thread count: 22
 tnom = 27
 temp = 27
-method = modified trap
-WARNING: Node N006 is floating.
+method = trap
+WARNING: Node n012 is floating.
 
-WARNING: Less than two connections to node n006.  This node is used by c2.
 Early termination of direct N-R iteration.
 Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
 Starting Gmin stepping
@@ -28,7 +27,20 @@ vernier = 0.000976562
 vernier = 0.000488281
 Gmin = 5.50104
 Gmin = 0
-Gmin stepping succeeded in finding the operating point.
+Gmin stepping failed
 
-Total elapsed time: 0.196 seconds.
+Starting source stepping with srcstepmethod=0
+Source Step = 3.0303%
+Source Step = 33.3333%
+Source Step = 63.6364%
+Source Step = 93.9394%
+Source stepping succeeded in finding the operating point.
+
+Total elapsed time: 1.312 seconds.
+
+Files loaded:
+C:\Users\Usuario\Documents\Proyecto_Pedal\Overdrive-guitar-pedal-project\Simulaciones\Overdrive_simple.net
+C:\Users\Usuario\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\Usuario\AppData\Local\LTspice\lib\cmp\standard.bjt
+C:\Users\Usuario\Documents\Proyecto_Pedal\Overdrive-guitar-pedal-project\Simulaciones\TL072.lib
 
