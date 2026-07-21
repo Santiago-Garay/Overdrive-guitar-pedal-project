@@ -24,9 +24,9 @@ alpha = 2.8;      % controla la suavidad del clipping
 Rpot = 250e3;
 
 % Red de compensación
-R5 = 1e3;
-R6 = 10e3;
-R7 = 1e3;
+R5 = 5e3;
+R6 = 12e3;
+R7 = 10e3;
 R8 = 5e3;
 
 N = 1000;
@@ -134,7 +134,7 @@ for m = 1:length(Vin_array)
         Gsup = 1/Rsup + 1/R6;
         Ginf = 1/Rinf + 1/R8;
 
-        Att = (Gsup)/(Gsup+Ginf);
+        Att = (1/Ginf)/(1/Gsup+1/Ginf);
 
         Vout(k)=Att*Vclip(k);
 
