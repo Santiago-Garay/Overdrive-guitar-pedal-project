@@ -645,7 +645,7 @@
         "uuid": "e61792f5-60d5-426e-843b-2388f129ecca"
       }
     ],
-    "used_designators": "U3,#PWR10,#PWR12-18,Pot_Gain1,C11-16,R9-14,J5,RV2,JP1-3,D3",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
