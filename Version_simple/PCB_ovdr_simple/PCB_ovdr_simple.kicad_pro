@@ -506,13 +506,14 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -706,7 +707,7 @@
         "uuid": "e61792f5-60d5-426e-843b-2388f129ecca"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J4",
     "variants": []
   },
   "sheets": [
